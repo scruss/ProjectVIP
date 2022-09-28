@@ -1,0 +1,261 @@
+# depslib dependency file v1.0
+1363588038 source:/aux/ProjectVIP/CosmacVIP/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"general.h"
+	"cpu.h"
+	"hardware.h"
+	"debug.h"
+
+1363603966 /aux/ProjectVIP/CosmacVIP/general.h
+
+1363604163 /aux/ProjectVIP/CosmacVIP/cpu.h
+	"general.h"
+
+1363604543 /aux/ProjectVIP/CosmacVIP/hardware.h
+	"general.h"
+
+1363150170 /aux/ProjectVIP/CosmacVIP/debug.h
+
+1363604501 source:/aux/ProjectVIP/CosmacVIP/cpu.c
+	<stdlib.h>
+	"general.h"
+	"cpu.h"
+	"system.h"
+	"macros1802.h"
+	"monitor_rom.h"
+	"studio2_rom.h"
+	"cpu1802.h"
+
+1363274033 /aux/ProjectVIP/CosmacVIP/macros1802.h
+
+1363274033 /aux/ProjectVIP/CosmacVIP/cpu1802.h
+
+1363604573 source:/aux/ProjectVIP/CosmacVIP/debug.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"general.h"
+	"hardware.h"
+	"debugscreen.h"
+	"debug.h"
+	"cpu.h"
+
+1363150170 /aux/ProjectVIP/CosmacVIP/debugscreen.h
+
+1363604585 source:/aux/ProjectVIP/CosmacVIP/debugscreen.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"general.h"
+	"cpu.h"
+	"hardware.h"
+	"mnemonics1802.h"
+
+1363274033 /aux/ProjectVIP/CosmacVIP/mnemonics1802.h
+
+1363604737 source:/aux/ProjectVIP/CosmacVIP/hardware.c
+	<stdlib.h>
+	<ctype.h>
+	"hardware.h"
+	<SDL/SDL.h>
+	<SDL.h>
+	"font.h"
+
+1347701910 /usr/include/SDL/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1347701910 /usr/include/SDL/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1347701910 /usr/include/SDL/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1347701910 /usr/include/SDL/SDL_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1347701910 /usr/include/SDL/SDL_platform.h
+
+1347701910 /usr/include/SDL/begin_code.h
+
+1347701910 /usr/include/SDL/close_code.h
+
+1347701910 /usr/include/SDL/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1347701910 /usr/include/SDL/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1347701910 /usr/include/SDL/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1347701910 /usr/include/SDL/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1347701910 /usr/include/SDL/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1347701910 /usr/include/SDL/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1347701910 /usr/include/SDL/SDL_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1347701910 /usr/include/SDL/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1347701910 /usr/include/SDL/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1347701910 /usr/include/SDL/SDL_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1347701910 /usr/include/SDL/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1347701910 /usr/include/SDL/SDL_keysym.h
+
+1347701910 /usr/include/SDL/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1347701910 /usr/include/SDL/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1347701910 /usr/include/SDL/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1347701910 /usr/include/SDL/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1347701910 /usr/include/SDL/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1347701910 /usr/include/SDL/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1347701910 /usr/include/SDL/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1363274033 /aux/ProjectVIP/CosmacVIP/font.h
+
+1363274033 /aux/ProjectVIP/CosmacVIP/monitor_rom.h
+
+1363266158 /aux/ProjectVIP/CosmacVIP/system.h
+
+1363320422 source:/aux/ProjectVIP/CosmacVIP/system.c
+	"general.h"
+	"hardware.h"
+	"system.h"
+
+1363274033 /aux/ProjectVIP/CosmacVIP/studio2_rom.h
+

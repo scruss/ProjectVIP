@@ -1,0 +1,30 @@
+Arduino
+=======
+
+Contains the source for the arduino version, and the library "TVout1802" which is used to generate video. Source files here come from the CosmacVIP directory (copied by grabbit.sh)
+
+Chip8
+=====
+Chip 8 games used for testing
+
+CosmacVIP
+=========
+PC Emulator developed using Code:Blocks. The machine type is selected in general.h. The 1802 files macros1802.h mnemonics1802.h and cpu1802.h are automatically generated and copied from the Generate directory
+
+Generate
+========
+Code for generating 1802 source files, and for converting the inbuilt binaries (Studio 2 ROM and VIP ROM) to .h files
+for including in the source. Script generate.sh runs both python scripts and copies the resulting files into the CosmacVIP directory.
+
+Miscellany
+==========
+Testing odds and sods.
+
+Testing
+=======
+Testing code for the Elf version of the emulator.
+
+Transmit
+========
+Python script to send binary files to the hardware emulator.
+
